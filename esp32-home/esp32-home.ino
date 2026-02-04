@@ -17,9 +17,9 @@
 //------------------------------------------------------------------------------
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 // See the Device Info tab, or Template settings
-#define BLYNK_TEMPLATE_ID "ENTER_TEMPLATE_ID"
-#define BLYNK_DEVICE_NAME "ENTER_DEVICE_NAME"
-#define BLYNK_AUTH_TOKEN "ENTER_AUTH_TOKEN"
+#define BLYNK_TEMPLATE_ID "TMPL6wX3buNMc"
+#define BLYNK_DEVICE_NAME "my home"
+#define BLYNK_AUTH_TOKEN "4pBVExOrTJddmy0DX5ecFRPhP504-PIw"
 //------------------------------------------------------------------------------
 //--------------------------------------------------
 #include <WiFi.h>
@@ -34,8 +34,8 @@ BlynkTimer timer;
 //--------------------------------------------------
 // Your WiFi Router's credentials. (or Mobile Hotspot)
 // Set password to "" for open networks.
-char ssid[] = "ENTER_WIFI_SSID";
-char pass[] = "ENTER_WIFI_PASSWORD";
+char ssid[] = "Raviya";
+char pass[] = "987654321";
 //--------------------------------------------------
 #define BUTTON_1 22 
 #define BUTTON_2 15
@@ -421,3 +421,4 @@ void listen_ir()
       IrReceiver.resume();
    }
 }
+
